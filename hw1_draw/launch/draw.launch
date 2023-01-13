@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="hw1_draw" type="draw_node" name="brush" output="screen" respawn="true"/>
+    <node pkg="hw1_draw" type="drawer.py" name="artist" output="screen" respawn="true"/>
+    <node type="rviz" name="rviz" pkg="rviz" args="-d $(find hw1_draw)/config/rviz.rviz" />
+</launch>
