@@ -10,8 +10,8 @@ class drawing_service
 {
     private:
         // std var
-        int counter = 0;
-        float distance;
+        // int counter = 0;
+        // float distance;
         bool end = false;
 
         // ros var
